@@ -15,6 +15,11 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
+private slots:
+    void on_one_clicked();
+
+    void on_multi_clicked();
+
 private:
     Ui::Widget *ui;
 };
